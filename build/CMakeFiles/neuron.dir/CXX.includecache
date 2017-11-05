@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/INTRANET/juliano/myfiles/finalproject/experiment.cpp
+experiment.h
+/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+
+/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+iostream
+-
+neuron.h
+/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+cassert
+-
+fstream
+-
+
+/home/INTRANET/juliano/myfiles/finalproject/main.cpp
+iostream
+-
+experiment.h
+/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+
+/home/INTRANET/juliano/myfiles/finalproject/neuron.cpp
+neuron.h
+/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+
+/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+iostream
+-
+vector
+-
+cmath
+-
+random
+-
+cassert
+-
+
