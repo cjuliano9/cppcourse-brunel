@@ -278,11 +278,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/INTRANET/juliano/myfiles/finalproject/neuron.cpp
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp
 neuron.h
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 iostream
 -
 vector
@@ -294,9 +294,9 @@ random
 cassert
 -
 
-/home/INTRANET/juliano/myfiles/finalproject/unitest.cpp
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/unitest.cpp
 neuron.h
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 gtest/gtest.h
-/home/INTRANET/juliano/myfiles/finalproject/gtest/gtest.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/gtest.h
 

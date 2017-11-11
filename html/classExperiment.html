@@ -37,6 +37,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -149,6 +150,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>build up the network , connexion between neurons </p>
+<p>Setter of the Network Set the number of excitatory and inhibitory neurons and assign them the right amplitude J. Set the parameter eta entered by the user for each neuron. Then set the target neurons for each neuron using a uniform distribution. Each neuron 't' will be the target of (nbr inhibitory connections + nbr excitatory connections) random neurons. </p>
 <dl class="section return"><dt>Returns</dt><dd>void; </dd></dl>
 
 </div>
@@ -178,6 +180,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set the time of the simulation in time steps </p>
+<p>Setter for the time of the simulation and conversion to time steps </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">const</td><td>double t_init, const double t_fin </td></tr>
@@ -202,6 +205,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calls update network at each time step </p>
+<p>The simulation asks the user to enter the value for the graph wanted. Two parameters are needed, the nu_ext/nu_threshold ration and the relative weights. The parameters are registered in temporary variables used to set parameters for each neuron. The method also directly set the inhibitory weight with the relative weight entered. Calls <a class="el" href="classExperiment.html#a4f384c4aa52147e9c38c01dce850071f" title="build up the network , connexion between neurons ">setNetwork()</a> to create neurons and connections. Calls <a class="el" href="classExperiment.html#a41395f7cab731966396573a78ebc2756" title="updates each neuron of the network ">updateNetwork()</a> at each time step. </p>
 <dl class="section return"><dt>Returns</dt><dd>void; </dd></dl>
 
 </div>
@@ -220,6 +224,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>updates each neuron of the network </p>
+<p>For each neuron, calls update and register the returned value in a boolean. If the neuron spikes, register the time of spike and iterates on the tab of connections. Each value in the tab of connections return an index. Calls receive for the neuron given by the index (post-synaptic neuron). </p>
 <dl class="section return"><dt>Returns</dt><dd>void; </dd></dl>
 
 </div>
@@ -231,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 5 2017 16:32:21 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 11 2017 22:54:29 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

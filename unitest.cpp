@@ -14,7 +14,6 @@ EXPECT_EQ(20*(1-std::exp(-0.1/20.0)),n1.getPot());
 TEST (NeuronTest, Spikes)
 {
   Neuron n1;
-  Neuron n2;
   bool isSpiking(false);
   int time(1);
   while (isSpiking==false){
@@ -22,13 +21,12 @@ TEST (NeuronTest, Spikes)
   ++time;
   }
 
-  EXPECT_GT(n1.getRefCount(),0);
+  EXPECT_GT(n1.getRefCount(),0); 
   EXPECT_EQ(0,n1.getPot());
-
- time=1;
-  while(n2.getPot()<20.0){
-    isSpiking=n2.update(time,1.01);
-  }
+  
+  Neuron n2;
+  n2.setV(20.0);
+  isSpiking=n2.update(1,1.01);
   EXPECT_TRUE(isSpiking);
 }
 

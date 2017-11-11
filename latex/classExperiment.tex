@@ -41,7 +41,7 @@ $<$ destructor
 
 build up the network , connexion between neurons 
 
-\begin{DoxyReturn}{Returns}
+Setter of the Network Set the number of excitatory and inhibitory neurons and assign them the right amplitude J. Set the parameter eta entered by the user for each neuron. Then set the target neurons for each neuron using a uniform distribution. Each neuron 't' will be the target of (nbr inhibitory connections + nbr excitatory connections) random neurons. \begin{DoxyReturn}{Returns}
 void; 
 \end{DoxyReturn}
 \hypertarget{classExperiment_a0bd96c4a240d059958ae700204f5f69d}{\index{Experiment@{Experiment}!set\-Time@{set\-Time}}
@@ -56,7 +56,7 @@ void;
 
 set the time of the simulation in time steps 
 
-
+Setter for the time of the simulation and conversion to time steps 
 \begin{DoxyParams}{Parameters}
 {\em const} & double t\-\_\-init, const double t\-\_\-fin \\
 \hline
@@ -75,7 +75,7 @@ void;
 
 calls update network at each time step 
 
-\begin{DoxyReturn}{Returns}
+The simulation asks the user to enter the value for the graph wanted. Two parameters are needed, the nu\-\_\-ext/nu\-\_\-threshold ration and the relative weights. The parameters are registered in temporary variables used to set parameters for each neuron. The method also directly set the inhibitory weight with the relative weight entered. Calls \hyperlink{classExperiment_a4f384c4aa52147e9c38c01dce850071f}{set\-Network()} to create neurons and connections. Calls \hyperlink{classExperiment_a41395f7cab731966396573a78ebc2756}{update\-Network()} at each time step. \begin{DoxyReturn}{Returns}
 void; 
 \end{DoxyReturn}
 \hypertarget{classExperiment_a41395f7cab731966396573a78ebc2756}{\index{Experiment@{Experiment}!update\-Network@{update\-Network}}
@@ -89,7 +89,7 @@ void;
 
 updates each neuron of the network 
 
-\begin{DoxyReturn}{Returns}
+For each neuron, calls update and register the returned value in a boolean. If the neuron spikes, register the time of spike and iterates on the tab of connections. Each value in the tab of connections return an index. Calls receive for the neuron given by the index (post-\/synaptic neuron). \begin{DoxyReturn}{Returns}
 void; 
 \end{DoxyReturn}
 

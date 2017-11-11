@@ -35,10 +35,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/INTRANET/juliano/myfiles/finalproject
+CMAKE_SOURCE_DIR = /home/INTRANET/juliano/myfiles/cppcourse-brunel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/INTRANET/juliano/myfiles/finalproject/build
+CMAKE_BINARY_DIR = /home/INTRANET/juliano/myfiles/cppcourse-brunel/build
 
 # Include any dependencies generated for this target.
 include gtest/googlemock/CMakeFiles/gmock.dir/depend.make
@@ -51,17 +51,17 @@ include gtest/googlemock/CMakeFiles/gmock.dir/flags.make
 
 gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: gtest/googlemock/CMakeFiles/gmock.dir/flags.make
 gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o: ../gtest/googletest/src/gtest-all.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/INTRANET/juliano/myfiles/finalproject/gtest/googletest/src/gtest-all.cc
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googletest/src/gtest-all.cc
 
 gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/finalproject/gtest/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googletest/src/gtest-all.cc > CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 
 gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/finalproject/gtest/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googletest/src/gtest-all.cc -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 
 gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.requires:
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.requires
@@ -74,17 +74,17 @@ gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o.provides.
 
 gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: gtest/googlemock/CMakeFiles/gmock.dir/flags.make
 gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../gtest/googlemock/src/gmock-all.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/INTRANET/juliano/myfiles/finalproject/gtest/googlemock/src/gmock-all.cc
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googlemock/src/gmock-all.cc
 
 gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/finalproject/gtest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/finalproject/gtest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires:
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.requires
@@ -108,8 +108,8 @@ gtest/googlemock/libgmock.a: gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all
 gtest/googlemock/libgmock.a: gtest/googlemock/CMakeFiles/gmock.dir/build.make
 gtest/googlemock/libgmock.a: gtest/googlemock/CMakeFiles/gmock.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libgmock.a"
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest/googlemock/CMakeFiles/gmock.dir/build: gtest/googlemock/libgmock.a
@@ -120,10 +120,10 @@ gtest/googlemock/CMakeFiles/gmock.dir/requires: gtest/googlemock/CMakeFiles/gmoc
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/requires
 
 gtest/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/clean
 
 gtest/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /home/INTRANET/juliano/myfiles/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/INTRANET/juliano/myfiles/finalproject /home/INTRANET/juliano/myfiles/finalproject/gtest/googlemock /home/INTRANET/juliano/myfiles/finalproject/build /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock /home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/INTRANET/juliano/myfiles/cppcourse-brunel /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googlemock /home/INTRANET/juliano/myfiles/cppcourse-brunel/build /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/depend
 

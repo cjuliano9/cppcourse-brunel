@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/INTRANET/juliano/myfiles/finalproject/experiment.cpp
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.cpp
 experiment.h
-/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.h
 
-/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.h
 iostream
 -
 neuron.h
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 cassert
 -
 fstream
 -
 
-/home/INTRANET/juliano/myfiles/finalproject/main.cpp
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/main.cpp
 iostream
 -
 experiment.h
-/home/INTRANET/juliano/myfiles/finalproject/experiment.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.h
 
-/home/INTRANET/juliano/myfiles/finalproject/neuron.cpp
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp
 neuron.h
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 
-/home/INTRANET/juliano/myfiles/finalproject/neuron.h
+/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.h
 iostream
 -
 vector

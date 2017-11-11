@@ -35,10 +35,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/INTRANET/juliano/myfiles/finalproject
+CMAKE_SOURCE_DIR = /home/INTRANET/juliano/myfiles/cppcourse-brunel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/INTRANET/juliano/myfiles/finalproject/build
+CMAKE_BINARY_DIR = /home/INTRANET/juliano/myfiles/cppcourse-brunel/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/neuron.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/neuron.dir/flags.make
 
 CMakeFiles/neuron.dir/neuron.cpp.o: CMakeFiles/neuron.dir/flags.make
 CMakeFiles/neuron.dir/neuron.cpp.o: ../neuron.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neuron.dir/neuron.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/neuron.cpp.o -c /home/INTRANET/juliano/myfiles/finalproject/neuron.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/neuron.cpp.o -c /home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp
 
 CMakeFiles/neuron.dir/neuron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuron.dir/neuron.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/finalproject/neuron.cpp > CMakeFiles/neuron.dir/neuron.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp > CMakeFiles/neuron.dir/neuron.cpp.i
 
 CMakeFiles/neuron.dir/neuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuron.dir/neuron.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/finalproject/neuron.cpp -o CMakeFiles/neuron.dir/neuron.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp -o CMakeFiles/neuron.dir/neuron.cpp.s
 
 CMakeFiles/neuron.dir/neuron.cpp.o.requires:
 .PHONY : CMakeFiles/neuron.dir/neuron.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/neuron.dir/neuron.cpp.o.provides.build: CMakeFiles/neuron.dir/neuron.
 
 CMakeFiles/neuron.dir/main.cpp.o: CMakeFiles/neuron.dir/flags.make
 CMakeFiles/neuron.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neuron.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/main.cpp.o -c /home/INTRANET/juliano/myfiles/finalproject/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/main.cpp.o -c /home/INTRANET/juliano/myfiles/cppcourse-brunel/main.cpp
 
 CMakeFiles/neuron.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuron.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/finalproject/main.cpp > CMakeFiles/neuron.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/cppcourse-brunel/main.cpp > CMakeFiles/neuron.dir/main.cpp.i
 
 CMakeFiles/neuron.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuron.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/finalproject/main.cpp -o CMakeFiles/neuron.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/cppcourse-brunel/main.cpp -o CMakeFiles/neuron.dir/main.cpp.s
 
 CMakeFiles/neuron.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/neuron.dir/main.cpp.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/neuron.dir/main.cpp.o.provides.build: CMakeFiles/neuron.dir/main.cpp.
 
 CMakeFiles/neuron.dir/experiment.cpp.o: CMakeFiles/neuron.dir/flags.make
 CMakeFiles/neuron.dir/experiment.cpp.o: ../experiment.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neuron.dir/experiment.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/experiment.cpp.o -c /home/INTRANET/juliano/myfiles/finalproject/experiment.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuron.dir/experiment.cpp.o -c /home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.cpp
 
 CMakeFiles/neuron.dir/experiment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuron.dir/experiment.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/finalproject/experiment.cpp > CMakeFiles/neuron.dir/experiment.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.cpp > CMakeFiles/neuron.dir/experiment.cpp.i
 
 CMakeFiles/neuron.dir/experiment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuron.dir/experiment.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/finalproject/experiment.cpp -o CMakeFiles/neuron.dir/experiment.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.cpp -o CMakeFiles/neuron.dir/experiment.cpp.s
 
 CMakeFiles/neuron.dir/experiment.cpp.o.requires:
 .PHONY : CMakeFiles/neuron.dir/experiment.cpp.o.requires
@@ -149,6 +149,6 @@ CMakeFiles/neuron.dir/clean:
 .PHONY : CMakeFiles/neuron.dir/clean
 
 CMakeFiles/neuron.dir/depend:
-	cd /home/INTRANET/juliano/myfiles/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/INTRANET/juliano/myfiles/finalproject /home/INTRANET/juliano/myfiles/finalproject /home/INTRANET/juliano/myfiles/finalproject/build /home/INTRANET/juliano/myfiles/finalproject/build /home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles/neuron.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/INTRANET/juliano/myfiles/cppcourse-brunel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/INTRANET/juliano/myfiles/cppcourse-brunel /home/INTRANET/juliano/myfiles/cppcourse-brunel /home/INTRANET/juliano/myfiles/cppcourse-brunel/build /home/INTRANET/juliano/myfiles/cppcourse-brunel/build /home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles/neuron.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/neuron.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/INTRANET/juliano/myfiles/finalproject/gtest/googletest/src/gtest-all.cc" "/home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-  "/home/INTRANET/juliano/myfiles/finalproject/gtest/googlemock/src/gmock-all.cc" "/home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googletest/src/gtest-all.cc" "/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
+  "/home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest/googlemock/src/gmock-all.cc" "/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

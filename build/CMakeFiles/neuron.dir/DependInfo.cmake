@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/INTRANET/juliano/myfiles/finalproject/experiment.cpp" "/home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles/neuron.dir/experiment.cpp.o"
-  "/home/INTRANET/juliano/myfiles/finalproject/main.cpp" "/home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles/neuron.dir/main.cpp.o"
-  "/home/INTRANET/juliano/myfiles/finalproject/neuron.cpp" "/home/INTRANET/juliano/myfiles/finalproject/build/CMakeFiles/neuron.dir/neuron.cpp.o"
+  "/home/INTRANET/juliano/myfiles/cppcourse-brunel/experiment.cpp" "/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles/neuron.dir/experiment.cpp.o"
+  "/home/INTRANET/juliano/myfiles/cppcourse-brunel/main.cpp" "/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles/neuron.dir/main.cpp.o"
+  "/home/INTRANET/juliano/myfiles/cppcourse-brunel/neuron.cpp" "/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/CMakeFiles/neuron.dir/neuron.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

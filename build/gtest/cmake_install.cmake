@@ -1,4 +1,4 @@
-# Install script for directory: /home/INTRANET/juliano/myfiles/finalproject/gtest
+# Install script for directory: /home/INTRANET/juliano/myfiles/cppcourse-brunel/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/INTRANET/juliano/myfiles/finalproject/build/gtest/googlemock/cmake_install.cmake")
+  include("/home/INTRANET/juliano/myfiles/cppcourse-brunel/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 
